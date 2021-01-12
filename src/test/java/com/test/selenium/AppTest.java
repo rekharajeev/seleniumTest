@@ -25,7 +25,7 @@ public class AppTest {
       driver = new ChromeDriver();
       driver.manage().window().maximize();
       driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-      driver.get("http://3.17.68.25:32770/");
+      driver.get("http://18.222.71.5:32768//");
   }
   @Test
   public void verifyHomepageTitle() {
